@@ -60,6 +60,16 @@ public class AppTest {
     	assertEquals(expected, actual);
     }
     
+    @Test
+    public void shouldAnswerWithZeros() {
+    	
+    	//int a = 10 ;
+    	//int b = -40 ;
+    	int expected = 0 ;
+    	int actual = aop.sum(0, 0);
+    	assertEquals(expected, actual);
+    }
+    
     @AfterEach
     public  void afterEach()
     {
