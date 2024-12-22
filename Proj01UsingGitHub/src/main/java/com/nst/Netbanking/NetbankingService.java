@@ -27,7 +27,7 @@ public class NetbankingService {
 	}
 
 
-	public String transferAmount(long srcaccno , long destAccn , double Amount)
+	public String transferAmount1(long srcaccno , long destAccn , double Amount)
 	{
 		return srcaccno+" no transfered amount to"+ destAccn;
 
