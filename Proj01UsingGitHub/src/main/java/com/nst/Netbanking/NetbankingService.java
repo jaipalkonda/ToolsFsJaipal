@@ -21,12 +21,15 @@ public class NetbankingService {
 		return Amount+" is credited to Account Number "+ accno +" on "+ new Date();
 	}
 	
-	
-	
-	
-	
 	public String closeAccount()
 	{
 		return "Account is close";
+	}
+
+
+	public String transferAmount(long srcaccno , long destAccn , double Amount)
+	{
+		return srcaccno+" no transfered amount to"+ destAccn;
+
 	}
 }
